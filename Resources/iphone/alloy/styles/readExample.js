@@ -1,1 +1,0 @@
-module.exports = [{"isClass":true,"priority":10000.0012,"key":"container","style":{}},{"isId":true,"priority":100000.0013,"key":"readWindow","style":{}}];
