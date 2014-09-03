@@ -1,0 +1,8 @@
+
+<Alloy>
+    <TabGroup id='tabGroup'>
+    	    	<Require type="view" src=  "readExample" />
+    		<Require type="view" src="createExample" />
+        <Require type="view" src="updateExample" />
+    </TabGroup>
+</Alloy>

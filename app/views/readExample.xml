@@ -1,0 +1,12 @@
+<Alloy>
+	<Collection src="page" />
+	<Tab id="readTab" title="Read">
+		<Window id="readWindow" title="Read Example" class="container">
+			<ActivityIndicator id="activityIndicator" message="Loading..."/>
+			<TableView id="table" dataCollection="page">
+				<Widget id="ptr" src="nl.fokkezb.pullToRefresh" onRelease="myLoader" />
+				<Require type="view" src="tableviewrow" />
+			</TableView>
+		</Window>
+		</Tab>
+</Alloy>

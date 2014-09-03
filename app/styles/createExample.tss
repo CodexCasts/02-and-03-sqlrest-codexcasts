@@ -1,0 +1,12 @@
+"#title":{
+		height: 40,
+		top:50,
+		width:250,
+		keyboardType:Titanium.UI.KEYBOARD_DEFAULT,
+		returnKeyType:Titanium.UI.RETURNKEY_DONE,
+		borderStyle:Titanium.UI.INPUT_BORDERSTYLE_ROUNDED,
+		hintText:'Title of page'
+},
+"#save_button":{
+	title: 'Save'
+}

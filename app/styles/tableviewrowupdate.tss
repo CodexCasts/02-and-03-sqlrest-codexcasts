@@ -1,0 +1,9 @@
+"#title":{
+	top: "2dp",
+	height: Ti.UI.SIZE,
+	left: "20",
+	right: "20",
+	font: {
+		fontSize: "24dp"
+	}
+}

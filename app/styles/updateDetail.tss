@@ -1,0 +1,30 @@
+"#updateDetailWindow":{
+	layout:'vertical',
+	backgroundColor:'white'
+}
+"#title_text_field":{
+		height: 40,
+		top:50,
+		width:250,
+		keyboardType:Titanium.UI.KEYBOARD_DEFAULT,
+		returnKeyType:Titanium.UI.RETURNKEY_DONE,
+		borderStyle:Titanium.UI.INPUT_BORDERSTYLE_ROUNDED,
+		hintText:'Title of page'
+},
+/**
+ Be sure to mention this:
+[ERROR] :  Invalid ID "delete" for <Button>.
+[ERROR] :  Can't use reserved Javascript words as IDs.
+[ERROR] :  Reserved words: [break,case,catch,class,continue,debugger,default,delete,do,else,enum,export,extends,finally,for,function,if,implements,import,in,instanceof,interface,let,new,package,private,protected,public,return,static,super,switch,this,throw,try,typeof,var,void,while,with,yield]
+[ERROR] :  Alloy compiler failed
+**/
+"#update_button":{
+	title: 'update',
+	top:'20'
+},
+"#delete_button":{
+	title: 'delete',
+	top:'20'
+
+}
+

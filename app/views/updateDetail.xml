@@ -1,0 +1,8 @@
+<Alloy>
+<Model src="page" instance="true" id="pageDetail" />
+	<Window id="updateDetailWindow" model="$.pageDetail">
+		<TextField id="title_text_field" value="{$.pageDetail.title}" ></TextField>
+		<Button id="update_button" onClick="updateButton"></Button>
+		<Button id="delete_button" onClick="deleteButton"></Button>
+	</Window>
+</Alloy>

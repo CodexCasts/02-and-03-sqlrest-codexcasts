@@ -1,0 +1,9 @@
+<Alloy>
+    <Collection src="page" />
+    <Tab id="createTab" title="Create">
+       	<Window id="Win"  title="Create Example" class='container'>
+			<TextField id="title"></TextField>
+			<Button id="save_button" onClick="createPage"></Button>
+		</Window>
+    </Tab>
+</Alloy>

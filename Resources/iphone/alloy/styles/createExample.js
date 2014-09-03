@@ -1,0 +1,1 @@
+module.exports = [{"isId":true,"priority":100000.0009,"key":"title","style":{height:40,top:50,width:250,keyboardType:Titanium.UI.KEYBOARD_DEFAULT,returnKeyType:Titanium.UI.RETURNKEY_DONE,borderStyle:Titanium.UI.INPUT_BORDERSTYLE_ROUNDED,hintText:"Title of page",}},{"isId":true,"priority":100000.001,"key":"save_button","style":{title:"Save",}}];
